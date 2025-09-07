@@ -1,32 +1,39 @@
-# 📊 ITable Component (Vue 3 + TypeScript + Laravel Ready)
+# 📊 ITable Component
 
-A powerful, customizable data table component for **Vue 3** with features like search, sort, pagination, export, print, and column visibility.  
-Optimized for **client-side** and **server-side (Laravel API)** usage.
+[![Vue 3](https://img.shields.io/badge/Vue-3-brightgreen.svg)](https://vuejs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-blue.svg)](https://www.typescriptlang.org/)
+[![Laravel](https://img.shields.io/badge/Laravel-12-red.svg)](https://laravel.com/)
+[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+A **Vue 3** + **TypeScript** data table component with advanced features like:
+
+- 🔍 Search
+- ↕️ Sorting
+- 📑 Pagination (client & server)
+- 📤 Excel Export
+- 🖨️ Print support
+- 👁️ Column visibility toggle
+- ✔️ Row selection
+- 📌 Sticky header & sticky column
+- ⚡ Laravel API ready
 
 ---
 
-## ✨ Features
+## 🚀 Demo
 
-- 🔍 **Search** with debounce  
-- ↕️ **Sorting** (text, number, date)  
-- 📑 **Pagination** (client & server side)  
-- 📤 **Excel Export**  
-- 🖨️ **Print support** (hide certain columns when printing)  
-- 👁️ **Column visibility toggle** (with `localStorage` persistence)  
-- 📌 **Sticky header / sticky first column**  
-- ✔️ **Row selection** with bulk select  
-- ⚡ **Server-side mode** (emit events for Laravel API)  
-- 🎨 **Custom slots** for cells, toolbar actions, pagination, etc.  
+👉 *Soon****  
 
 ---
 
 ## 📦 Installation
 
+Install `xlsx` dependency for Excel export:
+
 ```bash
 npm install xlsx
 # or
 yarn add xlsx
-```
+
 
 Place `ITable.vue` into your `components` folder.
 
