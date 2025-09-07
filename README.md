@@ -33,7 +33,7 @@ Install `xlsx` dependency for Excel export:
 npm install xlsx
 # or
 yarn add xlsx
-
+```
 
 Place `ITable.vue` into your `components` folder.
 
