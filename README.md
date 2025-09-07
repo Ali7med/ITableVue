@@ -1,4 +1,4 @@
-# 📊 ITable Component
+# 📊 ITableVue Component
 
 [![Vue 3](https://img.shields.io/badge/Vue-3-brightgreen.svg)](https://vuejs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-blue.svg)](https://www.typescriptlang.org/)
@@ -35,7 +35,7 @@ npm install xlsx
 yarn add xlsx
 ```
 
-Place `ITable.vue` into your `components` folder.
+Place `ITableVue.vue` into your `components` folder.
 
 ---
 
@@ -86,7 +86,7 @@ Place `ITable.vue` into your `components` folder.
 
 ```vue
 <script setup lang="ts">
-import ITable, { ITableHeader, ITableItem } from "@/components/ITable.vue";
+import ITableVue, { ITableHeader, ITableItem } from "@/components/ITableVue.vue";
 
 const headers: ITableHeader[] = [
   { caption: "ID", value: "id", sortable: true, visible: true },
@@ -104,7 +104,7 @@ const selectedIds = ref<number[]>([]);
 </script>
 
 <template>
-  <ITable
+  <ITableVue
     :headers="headers"
     :items="rows"
     title="Users"
@@ -130,7 +130,7 @@ const selectedIds = ref<number[]>([]);
 
 ```vue
 <template>
-  <ITable
+  <ITableVue
     server-side
     :headers="headers"
     :items="users.data"
